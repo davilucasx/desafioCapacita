@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas aventuras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Minhas Aventuras</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#aventuras">Aventuras</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="sobre" class="container">
+        <div class="container">
+            <h2 class="sobre">Viagens do Lucas</h2>
+        </div>
+    </section>
+
+    <section id="aventuras" class="section">
+        <div class="container">
+            <div class="aventuras-grid">
+                <div class="aventura-item">
+                    <img src="imgs/desertoatacama.jpg" alt="descrição da imagem">
+                    <h3>Deserto do Atacama - Chile</h3>
+                    <p>Aventuras e trilhas</p>
+                </div>
+                <div class="aventura-item">
+                    <img src="imgs/machu picchu.jpg" alt="descrição da imagem">
+                    <h3>Machu Picchu - Peru</h3>
+                    <p>Aventuras e trilhas</p>
+                </div>
+                <div class="aventura-item">
+                    <img src="imgs/patagonia.jpg" alt="descrição da imagem">
+                    <h3>Patagônia - Argentina</h3>
+                    <p>Aventuras e trilhas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="sectionContato">
+        <p>Deseja entrar em contato? por favor, preencha o formulario abaixo</p>
+        <form action="https://formsubmit.co/your@email.com" method="post">
+            <input type="text" name="Nome" placeholder="Seu nome" required>
+            <input type="email" name="Email" placeholder="Seu email" required>
+            <textarea name="Mensagem" rows="4" placeholder="Sua mensagem" id=""></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Lucas Davi. 2024 FSN6 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
